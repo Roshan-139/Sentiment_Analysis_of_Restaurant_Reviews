@@ -4,7 +4,7 @@ import warnings
 warnings.filterwarnings('ignore')
 from google.colab import drive
 drive.mount('/content/drive/')
-df=pd.read_csv("/content/drive/MyDrive/Restaurant_Reviews.tsv",delimiter='\t',quoting=3)
+df=pd.read_csv("Restaurant_Reviews.tsv",delimiter='\t',quoting=3)
 df.head()
 df.shape
 df.info()
